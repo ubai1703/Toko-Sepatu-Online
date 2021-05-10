@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".dataPembeli">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DATA PEMBELI"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/namPmbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Nama"
+            android:inputType="textPersonName"/>
+        <EditText
+            android:id="@+id/noHp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No Handphone"
+            android:inputType="phone"/>
+        <EditText
+            android:id="@+id/alPmbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat Pengiriman"
+            android:inputType="textPostalAddress"/>
+        <TextView
+            android:id="@+id/tot_byr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Bayar"
+            android:layout_marginLeft="5dp"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silakan Anda Membayar Ke No Rekening : 123-456-789 Sejumlah Harga Diatas"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+            android:id="@+id/btn_proses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_gravity="center"
+            android:text="P R O S E S" />
+</LinearLayout>
+
+

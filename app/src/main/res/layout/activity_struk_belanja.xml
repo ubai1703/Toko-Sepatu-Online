@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".strukBelanja">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logoToko"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/logo_png">
+        </ImageView>
+        <TextView
+            android:id="@+id/jln1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jl. Guntur Raya No. 1 RT 004 RW 016, Kel Kayuringin Jaya
+            Kec. Bekasi Selatan Kota Bekasi Jawa Barat 17144"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="0dp"
+            android:text="___________________________________"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DATA TRANSAKSI"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="0dp"
+            android:text="___________________________________"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/nmBrg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/hrgstn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga Satuan"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:id="@+id/jmlstn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:id="@+id/totByrStruk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Harga"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:id="@+id/namPmblStruk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Pembeli"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:id="@+id/noHpStruk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Handphone"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:id="@+id/alPmblStruk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat Pengiriman"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="0dp"
+            android:text="___________________________________"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn_cetak"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:text="C E T A K"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_kembali"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="K E M B A L I"
+        android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
